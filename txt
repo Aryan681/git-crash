@@ -1,0 +1,10 @@
+we can firstly init the git then 
+Then use git add . to add all the file to the tracking
+Then use git commit -m "message" to commit the file to the local repository
+Then use git push origin master to push the file to the remote repository
+we can see commits using the git log
+we can also see the commit line by  line using the git diff
+we can also see the status of the file using the git status
+to quite the git log we press q.
+u--> Unchecked , a--> checking , m --> modifies
+we used the git staged , when the change done but not commits
