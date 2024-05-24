@@ -1,19 +1,26 @@
-we can firstly ( init) the git then 
-Then use git add . to add all the file to the tracking .
-Then use git commit -m "message" to commit the file to the local repository .
-Then use git push origin master to push the file to the remote repository .
-we can see commits using the git log .
-we can also see the commit line by  line using the git diff .
-we can also see the status of the file using the git status .
+-> we can firstly ( init) the git then 
+-> Then use git add . to add all the file to the tracking .
+-> Then use git commit -m "message" to commit the file to the local repository .
+-> Then use git push origin master to push the file to the remote repository .
+-> we can see commits using the git log .
+-> we can also see the commit line by  line using the git diff .
+-> we can also see the status of the file using the git status .
 to quite the git log we press q.
-u--> Unchecked , a--> checking , m --> modifies
-we used the git staged , when the change done but not commits
- the step for the commit is that :-
+-> u--> Unchecked , a--> checking , m --> modifies
+-> we used the git staged , when the change done but not commits
+->  the step for the commit is that :-
  1. local storage
+        |
  2. staging area
+        |
  3. commit
-git show commit_id , show us all the changes happen in the file .
-git blame file_name  it shows that who changes the code and when .
+-> git show commit_id , show us all the changes happen in the file .
+-> git blame file_name  it shows that who changes the code and when .
 
-Note : make the commit clean , mean do a one thing then commit , it am=make the tracking easy.
+Note : make the commit clean , mean do a one thing then commit , it make the tracking easy.
+
+-> commit is like the link list , so the head is point toward the latest commit .
+
+
+
 
