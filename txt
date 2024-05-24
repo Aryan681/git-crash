@@ -40,4 +40,4 @@ Note : make the commit clean , mean do a one thing then commit , it make the tra
 -> to connect our local file to the center server like the gitHub 
 we use [git remote add origin (server name {can be any thing ,default is origin repo address (from git hub)})] 
 
-->by using git push , we add our changes to the repo.
+-> by using git push -u origin main , we add our changes to the repo.
