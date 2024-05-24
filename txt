@@ -20,6 +20,8 @@ to quite the git log we press q.
 Note : make the commit clean , mean do a one thing then commit , it make the tracking easy.
 
 -> commit is like the link list , so the head is point toward the latest commit .
+-> if there was the error commit in the log and we have to revert then we can use[ git reset --hard commit_id].
+->
 
 
 
