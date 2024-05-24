@@ -13,17 +13,16 @@ repository .
 
 -> we can also see the status of the file using the git status .
 
-to quite the git log we press q.
+-> to quite the git log we press q.
+
 -> u--> Unchecked , a--> checking , m --> modifies
 
 -> we used the git staged , when the change done but not commits
 
 ->  the step for the commit is that :-
- 1. local storage
-        |
- 2. staging area
-        |
- 3. commit
+ Step 1: local storage
+ Step 2: staging area    
+ Step 3: commit
 
 -> git show commit_id , show us all the changes happen in the file .
 
@@ -37,10 +36,3 @@ Note : make the commit clean , mean do a one thing then commit , it make the tra
 -> if there was the error commit in the log and we have to revert then we can use[ git reset --hard commit_id].
 
 -> if we want to revert the particular commit then we use [git revert  commit_id]
-
-
-
-
-
-
-
