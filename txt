@@ -36,3 +36,8 @@ Note : make the commit clean , mean do a one thing then commit , it make the tra
 -> if there was the error commit in the log and we have to revert then we can use[ git reset --hard commit_id].
 
 -> if we want to revert the particular commit then we use [git revert  commit_id]
+
+-> to connect our local file to the center server like the gitHub 
+we use [git remote add origin (server name {can be any thing ,default is origin repo address (from git hub)})] 
+
+->by using git push , we add our changes to the repo.
