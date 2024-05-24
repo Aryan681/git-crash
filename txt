@@ -41,3 +41,13 @@ Note : make the commit clean , mean do a one thing then commit , it make the tra
 we use [git remote add origin (server name {can be any thing ,default is origin repo address (from git hub)})] 
 
 -> by using git push  origin main , we add our changes to the repo.
+
+->the real process to push in to the repos is :-
+Step 1: Fetch and Merge the Latest Changes
+        First, fetch the latest changes from the remote repository,Then, merge the changes into your local branch:
+
+                        git fetch origin
+                        git merge origin/main
+
+Step 2: Push Your Changes
+        git push origin main
