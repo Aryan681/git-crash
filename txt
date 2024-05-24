@@ -8,3 +8,7 @@ we can also see the status of the file using the git status
 to quite the git log we press q.
 u--> Unchecked , a--> checking , m --> modifies
 we used the git staged , when the change done but not commits
+ the step fot the commit is that 
+ 1. local storage
+ 2.staging area
+ 3. commit
