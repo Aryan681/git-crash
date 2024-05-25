@@ -71,7 +71,18 @@ BRANCHING
 -> we use the [git push --set-upstream branch_name subbranch_name] to push the subbranch in the main branch .
 
 -> how to merge the new branch in the main branch of the remote server :-
+
 CLI Method (command line interface)
 Step 1 : go to main branch 
 Step 2 : git merge origin/Sub_branch_name
 Step 3 : git push
+
+Naming Of Branch :-
+wip       Works in progress; stuff I know won't be finished soon
+feat      Feature I'm adding or expanding
+bug       Bug fix or experiment
+junk      Throwaway branch created to experiment
+
+Example=> "feat/add-the-chat-support"
+
+git checkout -b feat/add-the-chat-support
