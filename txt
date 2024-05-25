@@ -67,3 +67,5 @@ BRANCHING
 -> we can delete the branch using the git branch -d branch_name
 
 -> we can merge the branch using the git merge branch_name
+
+-> we use the [git push --set-upstream branch_name subbranch_name] to push the subbranch in the main branch
