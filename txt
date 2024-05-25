@@ -40,7 +40,7 @@ Note : make the commit clean , mean do a one thing then commit , it make the tra
 -> to connect our local file to the center server like the gitHub 
 we use [git remote add origin (server name {can be any thing ,default is origin repo address (from git hub)})] 
 
--> by using git push  origin main , we add our changes to the repo.
+-> By using git push  origin main , we add our changes to the repo.
 
 ->the real process to push in to the repos is :-
 Step 1: Fetch and Merge the Latest Changes
@@ -51,3 +51,13 @@ Step 1: Fetch and Merge the Latest Changes
 
 Step 2: Push Your Changes
         git push origin main
+
+
+-> We can have the multiple remote , it is basically use in the open Source
+
+
+BRANCHING 
+-> we can create the branch using the git branch branch_name
+-> we can switch to the branch using the git checkout branch_name
+-> we can delete the branch using the git branch -d branch_name
+-> we can merge the branch using the git merge branch_name
