@@ -24,9 +24,9 @@ repository .
  Step 2: staging area    
  Step 3: commit
 
--> git show commit_id , show us all the changes happen in the file .
+->[ git show commit_id ,] show us all the changes happen in the file .
 
--> git blame file_name  it shows that who changes the code and when .
+-> [git blame file_name ] it shows that who changes the code and when .
 
 
 Note : make the commit clean , mean do a one thing then commit , it make the tracking easy.
@@ -85,4 +85,6 @@ junk      Throwaway branch created to experiment
 
 Example=> "feat/add-the-chat-support"
 
-git checkout -b feat/add-the-chat-support
+-> git checkout -b feat/add-the-chat-support
+
+-> we use git rebase when we have to main the commit history of the other subbranch in hte main branch. it added all the commit in the main commit history unlike the merge  , who combine all the commit of the sub_branch merge it st once 
