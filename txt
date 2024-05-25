@@ -55,9 +55,15 @@ Step 2: Push Your Changes
 
 -> We can have the multiple remote , it is basically use in the open Source
 
-Note: git pull do fetching and merging same time, while git fetch has   separate 
+Note: git pull do fetching and merging same time, while git fetch has   separate .
+
 BRANCHING 
+-> Branching is a way to work on a feature independently of any other work. It allows you to create a new line of development from an existing.
+
 -> we can create the branch using the git branch branch_name
+
 -> we can switch to the branch using the git checkout branch_name
+
 -> we can delete the branch using the git branch -d branch_name
+
 -> we can merge the branch using the git merge branch_name
